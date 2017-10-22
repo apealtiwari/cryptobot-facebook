@@ -45,7 +45,7 @@ else{
   $responseText= "Please Use Valid command!\n". "-> Use Fullname for Coin\n"."-> Do Not Use Any Symbol or leave extra spaces\n" . "-> use dash (-) for coins having two or more words in name. Example : Bitcoin-Cash, Ethereum-Classic etc.";
 }
 
-$token="EAAChsJn3SlUBAHFpdusR6j8H5KlDjTxay059kOBHhzIs7TuK99QCF4KtlDFaGAw7umFzYSfspVzsc9H4Gt3niKWjW0LSwUKygI99MJGOZB2VRuq6Jlizn9OBsNWozj6iziMYnjTeknXVyzAIFOkMLkXLtHCRf3TX38XSPWQZDZD";
+$token="PAGE_TOKEN_HERE";
 
 $data= array(
       "recipient"=> array("id"=>"$receiverId"),
